@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .botEmpezar {
   pointer-events: none;
@@ -37,7 +38,33 @@ body {
 }
 .personajes {
   background-image: url(/images/personajes.jpg);
-  display: none;
+  display: flex;
+  flex-direction: column;
+}
+.cabecera {
+  height: 7.5em;
+}
+.opciones {
+  height: 34em;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 9.5em;
+}
+.seleccion {
+  height: 21.5em;
+  background-color: rgba(0, 128, 0, 0.425);
+  display: flex;
+}
+.opcion1,
+.opcion2,
+.opcion3,
+.opcion4 {
+  width: 50%;
+  background-color: rgba(0, 0, 255, 0.384);
+}
+.elegido1,
+.elegido2 {
+  width: 50%;
 }
 .lucha {
   background-image: url(/images/campobatalla.jpg);
