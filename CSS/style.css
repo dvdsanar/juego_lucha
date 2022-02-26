@@ -1,0 +1,49 @@
+body {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+}
+.contenedor,
+.pantalla1,
+.personajes,
+.lucha {
+  min-height: 100vh;
+  background-size: cover;
+  border: 0;
+  margin: 0;
+}
+.pantalla1 {
+  background-image: url(/images/pantalla1.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.botEmpezar {
+  pointer-events: none;
+  height: 3em;
+  width: 15em;
+  background-color: rgba(76, 213, 218, 0.356);
+  font-size: x-large;
+  font-family: fantasy;
+  color: black;
+  border-color: white;
+  border-end-end-radius: 40%;
+  border-end-start-radius: 40%;
+}
+.botCont {
+  height: 4em;
+}
+.personajes {
+  background-image: url(/images/personajes.jpg);
+  display: none;
+}
+.lucha {
+  background-image: url(/images/campobatalla.jpg);
+  display: none;
+}
+p {
+  border: 0;
+  margin: 0;
+}
