@@ -40,6 +40,7 @@ body {
   background-image: url(/images/personajes.jpg);
   display: flex;
   flex-direction: column;
+  display: none;
 }
 .cabecera {
   height: 7.5em;
@@ -52,7 +53,7 @@ body {
 }
 .seleccion {
   height: 21.5em;
-  background-color: rgba(0, 128, 0, 0.425);
+  background-color: rgba(0, 7, 6, 0.993);
   display: flex;
 }
 .opcion1,
@@ -60,15 +61,124 @@ body {
 .opcion3,
 .opcion4 {
   width: 50%;
-  background-color: rgba(0, 0, 255, 0.384);
+  background-size: 43vmax;
+  background-repeat: no-repeat;
+}
+.opcion1 {
+  background-image: url(/images/mario.jpg);
+  background-position: center;
+}
+.opcion2 {
+  background-image: url(/images/kirby.jpg);
+  background-position-y: 20%;
+}
+.opcion3 {
+  background-image: url(/images/pikachu.jpg);
+  background-position: center;
+}
+.opcion4 {
+  background-image: url(/images/donkeykong.jpg);
+  background-position: center;
 }
 .elegido1,
 .elegido2 {
   width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .lucha {
   background-image: url(/images/campobatalla.jpg);
-  display: none;
+  display: flex;
+  flex-direction: column;
+}
+.barras {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1%;
+}
+.vidaP1,
+.vidaP2 {
+  width: 25%;
+  border: 3px solid black;
+}
+.relleno1 {
+  width: 100%;
+  background-color: red;
+  color: rgba(255, 0, 0, 0);
+}
+.relleno2 {
+  width: 100%;
+  background-color: red;
+  color: rgba(255, 0, 0, 0);
+}
+.teclas {
+  min-height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-inline: 6vh;
+}
+.tP1,
+.tP2 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  align-items: center;
+}
+.atA1,
+.atA2 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 2vh;
+  background-color: rgba(128, 128, 128, 0.884);
+  border: 1px solid black;
+  border-radius: 20%;
+}
+.atCargados {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 5px;
+}
+.atB1,
+.atC1,
+.atB2,
+.atC2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.884);
+  min-width: 33%;
+  max-width: 38%;
+  height: 3vh;
+  border: 1px solid black;
+  border-radius: 20%;
+  font-size: large;
+}
+.combate {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 45vh;
+}
+.luchador1,
+.luchador2 {
+  height: 26vh;
+  width: 20vh;
+  background-color: rgba(255, 255, 0, 0);
+}
+.luchador1 {
+  background-image: url(/images/DONKEYSVG.png);
+  background-size: cover;
+  margin-right: 2vh;
+}
+.luchador2 {
+  background-image: url(/images/KIRBYSVG.png);
+  background-size: cover;
+  margin-left: 2vh;
 }
 p {
   border: 0;
