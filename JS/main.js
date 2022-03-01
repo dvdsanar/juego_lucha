@@ -62,6 +62,7 @@ const cambioPantalla2 = () => {
       case "Kirby":
         document.getElementById("pers1").style.backgroundImage =
           "url('/images/kirby.jpg')";
+        document.getElementById("pers1").style.backgroundPositionY = "20%";
         document.getElementById("luch1").style.backgroundImage =
           "url('/images/KIRBYSVG.png')";
         break;
