@@ -1,8 +1,6 @@
 .personajes {
   background-image: url(/images/personajes.jpg);
-  display: flex;
   flex-direction: column;
-  display: none;
 }
 .cabecera {
   height: 7.5em;

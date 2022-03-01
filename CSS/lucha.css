@@ -1,8 +1,6 @@
 .lucha {
   background-image: url(/images/campobatalla.jpg);
-  display: flex;
   flex-direction: column;
-  display: none;
 }
 .barras {
   display: flex;
@@ -63,8 +61,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(128, 128, 128, 0.884);
-  min-width: 33%;
-  max-width: 38%;
+  width: 45%;
   height: 3vh;
   border: 1px solid black;
   border-radius: 20%;

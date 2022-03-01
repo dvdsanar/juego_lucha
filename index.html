@@ -12,14 +12,14 @@
   </head>
   <body>
     <div class="contenedor">
-      <div class="pantalla1">
+      <div class="pantalla1" id="inicio" style="display: flex" onclick="cambioPantalla()">
         <div class="jugar">
           <div class="botCont">
-            <button class="botEmpezar">Press Space Bar</button>
+            <button class="botEmpezar">Haz Click Para Empezar</button>
           </div>
         </div>
       </div>
-      <div class="personajes">
+      <div class="personajes" id="seleccion" style="display: none" onclick="cambioPantalla2()">
         <div class="cabecera"></div>
         <div class="opciones">
           <div class="opcion1"><p>personaje 1</p></div>
@@ -32,7 +32,7 @@
           <div class="elegido2"><p>personaje 4</p></div>
         </div>
       </div>
-      <div class="lucha">
+      <div class="lucha" id="tercera" style="display: none";>
         <div class="barras">
           <div class="vidaP1">
             <div class="relleno1"><p>Vida 1</p>
