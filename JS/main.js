@@ -56,18 +56,26 @@ const cambioPantalla2 = () => {
       case "Mario":
         document.getElementById("pers1").style.backgroundImage =
           "url('/images/mario.jpg')";
+        document.getElementById("luch1").style.backgroundImage =
+          "url('/images/MARIOSVG.png')";
         break;
       case "Kirby":
         document.getElementById("pers1").style.backgroundImage =
           "url('/images/kirby.jpg')";
+        document.getElementById("luch1").style.backgroundImage =
+          "url('/images/KIRBYSVG.png')";
         break;
       case "Pikachu":
         document.getElementById("pers1").style.backgroundImage =
           "url('/images/pikachu.jpg')";
+        document.getElementById("luch1").style.backgroundImage =
+          "url('/images/PIKACHUSVG.png')";
         break;
       case "DonkeyKong":
         document.getElementById("pers1").style.backgroundImage =
           "url('/images/donkeykong.jpg')";
+        document.getElementById("luch1").style.backgroundImage =
+          "url('/images/DONKEYSVG.png')";
         break;
     }
   }
@@ -76,22 +84,30 @@ const cambioPantalla2 = () => {
       case "Mario":
         document.getElementById("pers2").style.backgroundImage =
           "url('/images/mario.jpg')";
+        document.getElementById("luch2").style.backgroundImage =
+          "url('/images/MARIOSVG.png')";
         break;
       case "Kirby":
         document.getElementById("pers2").style.backgroundImage =
           "url('/images/kirby.jpg')";
+        document.getElementById("luch2").style.backgroundImage =
+          "url('/images/KIRBYSVG.png')";
         break;
       case "Pikachu":
         document.getElementById("pers2").style.backgroundImage =
           "url('/images/pikachu.jpg')";
+        document.getElementById("luch2").style.backgroundImage =
+          "url('/images/PIKACHUSVG.png')";
         break;
       case "DonkeyKong":
         document.getElementById("pers2").style.backgroundImage =
           "url('/images/donkeykong.jpg')";
+        document.getElementById("luch2").style.backgroundImage =
+          "url('/images/DONKEYSVG.png')";
         break;
     }
     console.log("entra en cambio pantalla 2");
-    setTimeout(retraso, 5000);
+    setTimeout(retraso, 500);
   }
 };
 
