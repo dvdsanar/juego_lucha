@@ -57,7 +57,7 @@ const cambioPantalla2 = () => {
         document.getElementById("pers1").style.backgroundImage =
           "url('/images/mario.jpg')";
         document.getElementById("luch1").style.backgroundImage =
-          "url('/images/MARIOSVG.png')";
+          "url('/images/MARIOSVGREVERSE.png')";
         break;
       case "Kirby":
         document.getElementById("pers1").style.backgroundImage =
@@ -91,8 +91,9 @@ const cambioPantalla2 = () => {
       case "Kirby":
         document.getElementById("pers2").style.backgroundImage =
           "url('/images/kirby.jpg')";
+        document.getElementById("pers2").style.backgroundPositionY = "20%";
         document.getElementById("luch2").style.backgroundImage =
-          "url('/images/KIRBYSVG.png')";
+          "url('/images/KIRBYSVGREVERSE.png')";
         break;
       case "Pikachu":
         document.getElementById("pers2").style.backgroundImage =
