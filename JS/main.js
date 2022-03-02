@@ -24,22 +24,22 @@ let players = [];
 const seleccionPersonaje = (personaje) => {
   switch (personaje) {
     case "persMario":
-      let mario = new Personaje("Mario", 6, 15);
+      let mario = new Personaje("Mario", 4, 100);
       players.push(mario);
       cambioPantalla2();
       break;
     case "persKirby":
-      let kirby = new Personaje("Kirby", 5, 20);
+      let kirby = new Personaje("Kirby", 3, 100);
       players.push(kirby);
       cambioPantalla2();
       break;
     case "persPikachu":
-      let pikachu = new Personaje("Pikachu", 4, 25);
+      let pikachu = new Personaje("Pikachu", 2, 100);
       players.push(pikachu);
       cambioPantalla2();
       break;
     case "persDonkey":
-      let donkey = new Personaje("DonkeyKong", 3, 30);
+      let donkey = new Personaje("DonkeyKong", 1, 100);
       players.push(donkey);
       cambioPantalla2();
       break;
@@ -113,7 +113,41 @@ const cambioPantalla2 = () => {
 };
 const teclaPulsada = (event) => {
   let e = event.keyCode;
-  console.log(e);
+
+  switch (e) {
+    case 97:
+      players[1].vida = players[1].vida - players[0].ataque;
+      document.getElementById("vida2").style.width = players[1].vida + "%";
+      break;
+    case 115:
+      players[0].ataque = players[0].ataque + 0.5;
+      players[1].vida = players[1].vida - players[0].ataque;
+      document.getElementById("vida2").style.width = players[1].vida + "%";
+      players[0].ataque = players[0].ataque - 0.5;
+      break;
+    case 100:
+      players[0].ataque = players[0].ataque + 1;
+      players[1].vida = players[1].vida - players[0].ataque;
+      document.getElementById("vida2").style.width = players[1].vida + "%";
+      players[0].ataque = players[0].ataque - 1;
+      break;
+    case 106:
+      players[0].vida = players[0].vida - players[1].ataque;
+      document.getElementById("vida1").style.width = players[0].vida + "%";
+      break;
+    case 107:
+      players[1].ataque = players[1].ataque + 0.5;
+      players[0].vida = players[0].vida - players[1].ataque;
+      document.getElementById("vida1").style.width = players[0].vida + "%";
+      players[1].ataque = players[1].ataque - 0.5;
+      break;
+    case 108:
+      players[1].ataque = players[1].ataque + 1;
+      players[0].vida = players[0].vida - players[1].ataque;
+      document.getElementById("vida1").style.width = players[0].vida + "%";
+      players[1].ataque = players[1].ataque - 1;
+      break;
+  }
 };
 const pelea = () => {
   if (luchar.style.display === "block") {
