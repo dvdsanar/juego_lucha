@@ -118,6 +118,7 @@ const teclaPulsada = (event) => {
     case 97:
       players[1].vida = players[1].vida - players[0].ataque;
       document.getElementById("vida2").style.width = players[1].vida + "%";
+      console.log("vida" + players[1].vida);
       break;
     case 115:
       players[0].ataque = players[0].ataque + 0.5;
