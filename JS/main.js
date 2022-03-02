@@ -1,7 +1,7 @@
 let pantalla1 = document.getElementById("inicio");
 let pantalla2 = document.getElementById("seleccion");
 let pantalla3 = document.getElementById("tercera");
-
+let luchar = document.getElementById("luchar");
 const cambioPantalla = () => {
   if (
     pantalla1.style.display === "flex" &&
@@ -108,9 +108,15 @@ const cambioPantalla2 = () => {
           "url('/images/DONKEYSVG.png')";
         break;
     }
-    console.log("entra en cambio pantalla 2");
     setTimeout(retraso, 500);
   }
 };
-
-// document.getElementById("pers1").style.backgroundImage();
+const teclaPulsada = (event) => {
+  let e = event.keyCode;
+  console.log(e);
+};
+const pelea = () => {
+  if (luchar.style.display === "block") {
+    luchar.style.display = "none";
+  }
+};

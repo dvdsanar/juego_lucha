@@ -36,6 +36,13 @@
   width: 15%;
   align-items: center;
 }
+.comenzar {
+  width: 20vh;
+  height: 15vh;
+  background-image: url(/images/fight.jpg);
+  background-size: cover;
+  background-position-y: 45%;
+}
 .atA1,
 .atA2 {
   display: flex;
