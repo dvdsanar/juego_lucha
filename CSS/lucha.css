@@ -43,6 +43,11 @@
   background-size: cover;
   background-position-y: 45%;
 }
+.ganador {
+  width: 50vh;
+  height: 37.5vh;
+  background-size: cover;
+}
 .atA1,
 .atA2 {
   display: flex;
