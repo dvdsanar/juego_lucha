@@ -108,7 +108,7 @@ const cambioPantalla2 = () => {
           "url('/images/DONKEYSVG.png')";
         break;
     }
-    setTimeout(retraso, 500);
+    setTimeout(retraso, 5000);
   }
 };
 const ganaP1 = () => {
