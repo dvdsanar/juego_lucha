@@ -53,16 +53,16 @@ apareciendo o desapareciendo convenientemente para cada escenario, que en este c
 - Selección de personajes
 - Combate
 
-  Dentro de cada una de lás pantallas realizaremos la acción determinada que corresponda: comenzar
-  a jugar, elegir a nuestros luchadores, combatir.
-  El estilo de todas las pantallas se ha dado a través de sus respectivas páginas de estilos
-  linkeada en el archivo index.html en el lenguaje _CSS_. La página en general tiene un estilo
-  común que sirve de base para el resto de pantallas, las cuales tienen sus propios estilos en hojas
-  de estilo separadas.
-  El uso de _JavaScript_ ha sido la base de este proyecto ya que es con el que hemos dotado de toda
-  la funcionalidad a nuestro proyecto. Entre esta funcionalidad contamos con cambiar las pantallas,
-  selección de personajes y visualización de los mismos, realización de los ataques y reducción de
-  la vida rival en función de ellos, dar comienzo al combate, aparición del vencedor de la pelea, etc.
+Dentro de cada una de lás pantallas realizaremos la acción determinada que corresponda: comenzar
+a jugar, elegir a nuestros luchadores, combatir.
+El estilo de todas las pantallas se ha dado a través de sus respectivas páginas de estilos
+linkeada en el archivo index.html en el lenguaje _CSS_. La página en general tiene un estilo
+común que sirve de base para el resto de pantallas, las cuales tienen sus propios estilos en hojas
+de estilo separadas.
+El uso de _JavaScript_ ha sido la base de este proyecto ya que es con el que hemos dotado de toda
+la funcionalidad a nuestro proyecto. Entre esta funcionalidad contamos con cambiar las pantallas,
+selección de personajes y visualización de los mismos, realización de los ataques y reducción de
+la vida rival en función de ellos, dar comienzo al combate, aparición del vencedor de la pelea, etc.
 
 ### Fallos Reconocidos
 
