@@ -1,0 +1,21 @@
+.pantalla1 {
+  background-image: url(/images/pantalla1.jpg);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.botEmpezar {
+  pointer-events: none;
+  height: 3em;
+  width: 15em;
+  background-color: rgba(76, 213, 218, 0.356);
+  font-size: x-large;
+  font-family: fantasy;
+  color: black;
+  border-color: white;
+  border-end-end-radius: 40%;
+  border-end-start-radius: 40%;
+}
+.botCont {
+  height: 4em;
+}

@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="CSS/style.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super David Smash Bros</title>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/pantalla1.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/personajes.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/lucha.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="pantalla1" id="inicio" style="display: flex" onclick="cambioPantalla()">
+        <div class="jugar">
+          <div class="botCont">
+            <button class="botEmpezar">Haz Click Para Empezar</button>
+          </div>
+        </div>
+      </div>
+      <div class="personajes" id="seleccion" style="display: none">
+        <div class="cabecera"></div>
+        <div class="opciones">
+          <div class="opcion1" id="persMario" onclick="seleccionPersonaje(this.id)"></div>
+          <div class="opcion2" id="persKirby" onclick="seleccionPersonaje(this.id)"></div>
+          <div class="opcion3" id="persPikachu" onclick="seleccionPersonaje(this.id)"></div>
+          <div class="opcion4" id="persDonkey" onclick="seleccionPersonaje(this.id)"></div>
+        </div>
+        <div class="seleccion">
+          <div class="elegido1" id="pers1"></div>
+          <div class="elegido2" id="pers2"></div>
+        </div>
+      </div>
+      <div class="lucha" id="tercera" style="display: none" onKeyPress="teclaPulsada(event)" tabindex="1">
+        <div class="barras">
+          <div class="vidaP1">
+            <div class="relleno1" id="vida1"><p>.</p>
+            </div>
+          </div>
+          <div class="vidaP2">
+            <div class="relleno2" id="vida2"><p>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="teclas">
+          <div class="tP1">
+            <div class="atA1"><p>A Puñetazo</p></div>
+            <div class="atCargados">
+              <div class="atB1"><p>S Patada</p></div>
+              <div class="atC1"><p>D Cargado</p></div>
+            </div>
+          </div>
+          <div class="comenzar" id="luchar" style="display: block" onclick="pelea()"></div>
+          <div class="ganador" id="final" style="display: none"></div>
+          <div class="tP2">
+            <div class="atA2"><p>J Puñetazo</p></div>
+            <div class="atCargados">
+              <div class="atB2"><p>K Patada</p></div>
+              <div class="atC2"><p>L Cargado</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="combate">
+          <div class="luchador1" id="luch1"></div>
+          <div class="luchador2" id="luch2"></div>
+        </div>
+      </div>
     <script src="JS/main.js"></script>
-</body>
+  </body>
 </html>

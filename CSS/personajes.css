@@ -1,0 +1,49 @@
+.personajes {
+  background-image: url(/images/personajes.jpg);
+  flex-direction: column;
+}
+.cabecera {
+  height: 7.5em;
+}
+.opciones {
+  height: 34em;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 9.5em;
+}
+.seleccion {
+  height: 21.5em;
+  background-color: rgba(0, 7, 6, 0.993);
+  display: flex;
+}
+.opcion1,
+.opcion2,
+.opcion3,
+.opcion4 {
+  width: 50%;
+  background-size: 43vmax;
+  background-repeat: no-repeat;
+}
+.opcion1 {
+  background-image: url(/images/mario.jpg);
+  background-position: center;
+}
+.opcion2 {
+  background-image: url(/images/kirby.jpg);
+  background-position-y: 20%;
+}
+.opcion3 {
+  background-image: url(/images/pikachu.jpg);
+  background-position: center;
+}
+.opcion4 {
+  background-image: url(/images/donkeykong.jpg);
+  background-position: center;
+}
+.elegido1,
+.elegido2 {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
