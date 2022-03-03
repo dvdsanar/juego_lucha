@@ -52,6 +52,7 @@ apareciendo o desapareciendo convenientemente para cada escenario, que en este c
 - Incio
 - Selección de personajes
 - Combate
+
   Dentro de cada una de lás pantallas realizaremos la acción determinada que corresponda: comenzar
   a jugar, elegir a nuestros luchadores, combatir.
   El estilo de todas las pantallas se ha dado a través de sus respectivas páginas de estilos
