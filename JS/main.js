@@ -55,28 +55,28 @@ const cambioPantalla2 = () => {
     switch (players[0].nombre) {
       case "Mario":
         document.getElementById("pers1").style.backgroundImage =
-          "url('../images/mario.jpg')";
+          "url('./images/mario.jpg')";
         document.getElementById("luch1").style.backgroundImage =
-          "url('../images/MARIOSVGREVERSE.png')";
+          "url('./images/MARIOSVGREVERSE.png')";
         break;
       case "Kirby":
         document.getElementById("pers1").style.backgroundImage =
-          "url('../images/kirby.jpg')";
+          "url('./images/kirby.jpg')";
         document.getElementById("pers1").style.backgroundPositionY = "20%";
         document.getElementById("luch1").style.backgroundImage =
-          "url('../images/KIRBYSVG.png')";
+          "url('./images/KIRBYSVG.png')";
         break;
       case "Pikachu":
         document.getElementById("pers1").style.backgroundImage =
-          "url('../images/pikachu.jpg')";
+          "url('./images/pikachu.jpg')";
         document.getElementById("luch1").style.backgroundImage =
-          "url('../images/PIKACHUSVG.png')";
+          "url('./images/PIKACHUSVG.png')";
         break;
       case "DonkeyKong":
         document.getElementById("pers1").style.backgroundImage =
-          "url('../images/donkeykong.jpg')";
+          "url('./images/donkeykong.jpg')";
         document.getElementById("luch1").style.backgroundImage =
-          "url('../images/DONKEYSVG.png')";
+          "url('./images/DONKEYSVG.png')";
         break;
     }
   }
@@ -84,35 +84,35 @@ const cambioPantalla2 = () => {
     switch (players[1].nombre) {
       case "Mario":
         document.getElementById("pers2").style.backgroundImage =
-          "url('../images/mario.jpg')";
+          "url('./images/mario.jpg')";
         document.getElementById("luch2").style.backgroundImage =
-          "url('../images/MARIOSVG.png')";
+          "url('./images/MARIOSVG.png')";
         break;
       case "Kirby":
         document.getElementById("pers2").style.backgroundImage =
-          "url('../images/kirby.jpg')";
+          "url('./images/kirby.jpg')";
         document.getElementById("pers2").style.backgroundPositionY = "20%";
         document.getElementById("luch2").style.backgroundImage =
-          "url('../images/KIRBYSVGREVERSE.png')";
+          "url('./images/KIRBYSVGREVERSE.png')";
         break;
       case "Pikachu":
         document.getElementById("pers2").style.backgroundImage =
-          "url('../images/pikachu.jpg')";
+          "url('./images/pikachu.jpg')";
         document.getElementById("luch2").style.backgroundImage =
-          "url('../images/PIKACHUSVG.png')";
+          "url('./images/PIKACHUSVG.png')";
         break;
       case "DonkeyKong":
         document.getElementById("pers2").style.backgroundImage =
-          "url('../images/donkeykong.jpg')";
+          "url('./images/donkeykong.jpg')";
         document.getElementById("luch2").style.backgroundImage =
-          "url('../images/DONKEYSVG.png')";
+          "url('./images/DONKEYSVG.png')";
         break;
     }
     setTimeout(retraso, 5000);
   }
 };
 const ganaP1 = () => {
-  ganador.style.backgroundImage = "url('../images/player1.jpg')";
+  ganador.style.backgroundImage = "url('./images/player1.jpg')";
   ganador.style.display = "block";
   pantalla3.removeAttribute("tabindex");
   document.getElementById("vida2").style.width = "0%";
@@ -120,7 +120,7 @@ const ganaP1 = () => {
 
 const ganaP2 = () => {
   ganador.style.display = "block";
-  ganador.style.backgroundImage = "url('../images/player2.jpg')";
+  ganador.style.backgroundImage = "url('./images/player2.jpg')";
   pantalla3.removeAttribute("tabindex");
   document.getElementById("vida1").style.width = "0%";
 };
