@@ -1,5 +1,5 @@
 .lucha {
-  background-image: url(/images/campobatalla.jpg);
+  background-image: url(../images/campobatalla.jpg);
   flex-direction: column;
 }
 .barras {
@@ -39,7 +39,7 @@
 .comenzar {
   width: 20vh;
   height: 15vh;
-  background-image: url(/images/fight.jpg);
+  background-image: url(../images/fight.jpg);
   background-size: cover;
   background-position-y: 45%;
 }
@@ -96,7 +96,6 @@
   margin-right: 2vh;
 }
 .luchador2 {
-  background-image: url(/images/KIRBYSVG.png);
   background-size: cover;
   margin-left: 2vh;
 }

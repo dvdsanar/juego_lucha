@@ -1,5 +1,5 @@
 .personajes {
-  background-image: url(/images/personajes.jpg);
+  background-image: url(../images/personajes.jpg);
   flex-direction: column;
 }
 .cabecera {
@@ -25,19 +25,19 @@
   background-repeat: no-repeat;
 }
 .opcion1 {
-  background-image: url(/images/mario.jpg);
+  background-image: url(../images/mario.jpg);
   background-position: center;
 }
 .opcion2 {
-  background-image: url(/images/kirby.jpg);
+  background-image: url(../images/kirby.jpg);
   background-position-y: 20%;
 }
 .opcion3 {
-  background-image: url(/images/pikachu.jpg);
+  background-image: url(../images/pikachu.jpg);
   background-position: center;
 }
 .opcion4 {
-  background-image: url(/images/donkeykong.jpg);
+  background-image: url(../images/donkeykong.jpg);
   background-position: center;
 }
 .elegido1,
