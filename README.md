@@ -25,7 +25,7 @@ desde el link que hay más abajo y ya podemos ejecutar nuestros combates. Cualqu
 actualmente abrirá dicha página y soportará las tecnologías y procesos utilizados en el desarrollo
 de la misma. Puesto que es una página web online no es necesario descargar ni instalar **NINGÚN**
 archivo, solo acceder al link siguiente.
-[Super David Smash Bros](dvdsanar.github.io/juego_lucha)
+[Super David Smash Bros](https://dvdsanar.github.io/juego_lucha)
 
 Nada más abrir la página nos encontramos con una pantalla de inicio que nos recibe y nos indica que
 para inciar debemos hacer click en cualquier parte de la pantalla.
